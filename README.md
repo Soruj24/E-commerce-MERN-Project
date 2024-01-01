@@ -17,3 +17,5 @@
 7.Middleware add
 
 8.Express Error Handling Middleware
+
+9.How to handle HTTP errors - http i errors
