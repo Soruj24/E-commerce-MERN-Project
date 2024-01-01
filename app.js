@@ -3,6 +3,8 @@ const morgan = require("morgan");
 const createError = require("http-errors");
 const xssClean = require("xss-clean");
 const rateLimit = require("express-rate-limit");
+const router = require("./src/router/userRouter");
+
 
 const app = express();
 const rateLimiter = rateLimit({
@@ -17,9 +19,9 @@ app.use(rateLimiter);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.get("/products", (req, res) => {
-  res.send("product is home page");
-});
+app.use("/api/users",router)
+
+
 
 //route  error handler
 app.use((req, res, next) => {
