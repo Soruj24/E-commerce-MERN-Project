@@ -11,6 +11,11 @@ app.get("/products", (req, res) => {
     res.send("product is home page")
 })
 
+// error handler
+app.use((err, req, res, next) => {
+    res.status(400).send(err.message)
+  })
+
 
 // server err 
 app.use((err, req, res, next) => {
