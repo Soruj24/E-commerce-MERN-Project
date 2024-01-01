@@ -18,4 +18,6 @@
 
 8.Express Error Handling Middleware
 
-9.How to handle HTTP errors - http i errors
+9.How to handle HTTP errors -> http i errors
+
+10.How to secure API -> xss-clean, express-rate-limit
