@@ -21,7 +21,15 @@
 9.How to handle HTTP errors -> http i errors
 
 10.How to secure API -> xss-clean, express-rate-limit
+
 11.Environment variable & .gitignore
+
 12.MVC Architecture
+
 13.connect to MongoDB database
-14. Schema & Model for User
+
+14.Schema & Model for User
+
+15.Create seed route for testing
+16.GET /api/users =>isAdmin -> getAllUsers => searchByName + pagination functionality
+17.responseHandler controller for error of success
