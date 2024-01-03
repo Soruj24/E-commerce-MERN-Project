@@ -33,3 +33,4 @@
 15.Create seed route for testing
 16.GET /api/users =>isAdmin -> getAllUsers => searchByName + pagination functionality
 17.responseHandler controller for error of success
+18.get a single user by id
