@@ -34,3 +34,5 @@
 16.GET /api/users =>isAdmin -> getAllUsers => searchByName + pagination functionality
 17.responseHandler controller for error of success
 18.get a single user by id
+19.How to create services in the backend
+20.DELETE /api/users/:id delete a single user by id
